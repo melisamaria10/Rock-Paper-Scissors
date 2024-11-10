@@ -15,18 +15,24 @@ To play, follow these steps:
    git clone https://github.com/melisamaria10/Rock-Paper-Scissors.git
 
 2.**Open the HTML file**
-  -Navigate to the folder where you cloned the repository
-  -Open the *rps.html* file in any modern web browser.
+
+-Navigate to the folder where you cloned the repository
+
+-Open the *rps.html* file in any modern web browser.
 
 3.**Open the console**
-  -Once the index.html file is open in your browser, you need to open the developer console to interact with the game. Use the following keyboard shortcuts based on your browser:
+
+-Once the index.html file is open in your browser, you need to open the developer console to interact with the game. Use the following keyboard shortcuts based on your browser:
     - **Chrome:** Press Ctrl+Shift+J (Windows) or Cmd+Option+J (Mac)
     -**Firefox:** Press Ctrl+Shift+K (Windows) or Cmd+Option+K (Mac)
     -**Edge:** Press F12 and go to the Console tab
 
 4.**Play the game**
+
   -In the console, you’ll be prompted to enter your choice of rock, paper, or scissors
+  
   -Type your choice as instructed, and the computer will generate its move
+  
   -The console will display the result, indicating whether you won, lost, or tied
 
 
