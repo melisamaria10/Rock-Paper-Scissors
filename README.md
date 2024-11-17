@@ -18,7 +18,7 @@ To play, follow these steps:
 
 - Navigate to the folder where you cloned the repository
 
-- Open the *rps.html* file in any modern web browser.
+- Open the *index.html* file in any modern web browser.
 
 3.**Open the console**
 
@@ -35,5 +35,9 @@ To play, follow these steps:
   
   - The console will display the result, indicating whether you won, lost, or tied
 
+## Live Preview
+You can play the Rock Paper Scissors game online at the following link:
+
+[Live Preview](https://melisamaria10.github.io/Rock-Paper-Scissors/)
 
   
