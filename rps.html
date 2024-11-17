@@ -107,51 +107,6 @@
         document.getElementById("paper").addEventListener("click", () => playRound("paper"));
         document.getElementById("scissors").addEventListener("click", () => playRound("scissors"));
         document.getElementById("restart").addEventListener("click", restartGame);
-        function getHumanChoice(){
-            let hc=prompt("You have to choose: rock, scissors or paper?");
-            hc=hc.toLowerCase();
-            console.log(hc);
-            return hc;
-        }
-        
-
-        function playRound(humanChoice,computerChoice){
-            if((humanChoice=="rock" && computerChoice=="paper") || (humanChoice=="scissors" && computerChoice=="rock") || (humanChoice=="paper" && computerChoice=="scissors")){
-                console.log(`You lost! ${computerChoice} beats ${humanChoice}!`);
-                computerScore++;
-            }
-            else if((computerChoice=="rock" && humanChoice=="paper") || (computerChoice=="scissors" && humanChoice=="rock") || (computerChoice=="paper" && humanChoice=="scissors")){
-                console.log(`You won! ${humanChoice} beats ${computerChoice}!`);
-                humanScore++;
-            }
-            else if((computerChoice=="rock" && humanChoice=="rock") || (computerChoice=="scissors" && humanChoice=="scissors") || (computerChoice=="paper" && humanChoice=="paper")){
-                console.log("It is draw!");
-            }
-
-        }
-        
-        function playGame(){
-            humanScore=0;
-            computerScore=0;
-            for(let i=0;i<5;i++){
-                const computerSelection=getComputerChoice();
-                const humanSelection=getHumanChoice();
-                playRound(humanSelection,computerSelection);
-            }
-            console.log(`The scores are: humanScore ${humanScore} - computerScore ${computerScore}`);
-            if(humanScore>computerScore){
-                console.log("You won!");
-            }
-            else if(humanScore<computerScore)
-            {
-                console.log("The computer won!");
-            }
-            else
-            {
-                console.log("It is a draw!");
-            }
-        }
-        playGame();
     </script>
   </body>
 </html>
